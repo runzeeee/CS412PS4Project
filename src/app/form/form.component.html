@@ -1,0 +1,6 @@
+<p>form works!</p>
+<div class="search">
+  <input type="text" placeholder="Search city" name="city" [(ngModel)]="cityName">
+  <button (click)="onSubmit()">Search</button>
+</div>
+<app-child [weatherData]="weatherData"></app-child>
